@@ -1,0 +1,44 @@
+# Workspace Context Summary
+
+## 1. ai-career-coach-master
+- **Type:** Next.js web application (based on presence of next.config.mjs, app/ structure, and package.json)
+- **Features:**
+  - User authentication (auth folder)
+  - Dashboard, resume, cover letter, interview modules (actions/)
+  - UI components (components/)
+  - Data for FAQs, features, testimonials, industries (data/)
+  - Uses Tailwind CSS (tailwind.config.mjs, postcss.config.mjs)
+  - Uses Prisma for database (prisma/)
+  - Hooks and utility libraries (hooks/, lib/)
+  - Public assets (public/)
+
+## 2. HLD
+- **Type:** Python project for High-Level Design (HLD) analysis and automation
+- **Features:**
+  - Project scripts for diagram publishing, feature extraction, quality checks, etc. (Project/)
+  - Agent-based architecture (Project/agent/)
+  - Chatbot component (Project/components/)
+  - Data assets (Project/data/)
+  - ML, output, server, state, tech stack predictor, utils, workflow modules (Project/)
+  - Requirements and test files (requirements.txt, tests.py)
+
+## 3. Human in the loop AI Agent
+- **Type:** Python project for a human-in-the-loop AI agent (travel planning domain)
+- **Features:**
+  - Main application scripts (app.py, app2.py)
+  - Configuration (config/)
+  - SQLite database (data/travel_agent.db)
+  - Database models and operations (database/)
+  - Graph-based logic (graph/)
+  - Domain models (models/)
+  - Tools for activities, cars, flights, hotels (tools/)
+  - UI stages and components (ui/)
+  - Utility helpers and LLM integration (utils/)
+  - Requirements file (requirements.txt)
+  - Test file (test.py)
+
+## General Notes
+- The workspace contains multiple independent projects, mainly in Python and JavaScript/TypeScript (Next.js).
+- Each project has its own dependencies and structure.
+- The Python projects use modular architecture with clear separation of concerns (agents, tools, UI, utils, etc.).
+- The Next.js project is focused on career coaching with AI-powered features.
